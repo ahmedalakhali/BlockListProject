@@ -6,7 +6,7 @@ The program uses the OpenSSL library to compute SHA-256 hashes of files. Each fi
 If a matching hash is found, the file is immediately deleted.
 The utility continuously monitors the folder in real time, ensuring that any blocked or malicious files are removed as soon as they appear.  
 
-=======
+
 # FileBlockList
 
 <!-- Replace OWNER/REPO in the badge URL with your GitHub owner and repo -->
@@ -138,6 +138,7 @@ This project is provided under the MIT License — see `LICENSE`.
 
 If you want, I can also add a short CONTRIBUTING.md or a LICENSE file. Which would you prefer?
 >>>>>>> d55a9b1 (Initial commit)
+
 
 
 
