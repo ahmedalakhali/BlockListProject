@@ -1,57 +1,58 @@
 # BlockListProject
 
-A program developed to automatically detect and remove blocked files from a designated folder named files.
-The program is implemented in C++ and makes use of Windows data types (typedefs) and Windows API functions, including ReadDirectoryChangesW and CreateFileW, to enable real-time file system monitoring.
-The program uses the OpenSSL library to compute SHA-256 hashes of files. Each file detected in the monitored folder is scanned, its hash is calculated, and then compared against a predefined blocklist.
-If a matching hash is found, the file is immediately deleted.
-The utility continuously monitors the folder in real time, ensuring that any blocked or malicious files are removed as soon as they appear.  
+## Overview
+
+BlockListProject is a C++ utility that **monitors a folder named `files` in real time** and automatically **detects and deletes blocked files**. It uses **Windows APIs** for file system monitoring and **OpenSSL** to compute **SHA-256 hashes**, which are compared against a predefined blocklist.
+
+If a file’s hash matches the blocklist, the file is **immediately removed**.
 
 ---
 
-## Fastest way to run the project
+## Key Features
 
-- Open Visual Studio updated version with "Desktop development with C++" workload
-- Go to Git in Visual Studio
-- Clone Repository
-- Copy the project URL 
+* Real-time folder monitoring (`files` directory)
+* SHA-256 hash scanning using OpenSSL
+* Automatic deletion of blocked or malicious files
+* High-performance, Windows-native implementation
+
+---
+
+## Technologies Used
+
+* **C++ (C++11 / C++17)**
+* **Windows API** (`ReadDirectoryChangesW`, `CreateFileW`)
+* **OpenSSL** (SHA-256 hashing)
+* Standard libraries: `<filesystem>`, `<thread>`, `<windows.h>`
+
 ---
 
 ## Requirements
 
-- Visual Studio 2019 / 2022 with "Desktop development with C++" workload (or MSVC toolchain)
-- OpenSSL development libraries (the project uses OpenSSL for SHA-256)
+* **Visual Studio 2019 or 2022**
+* **Desktop development with C++** workload (MSVC toolchain)
+* **OpenSSL development libraries**
+
 ---
 
-## Recommended: Install OpenSSL 
+## Fastest Way to Run
 
-- Go to (https://sourceforge.net/projects/openssl-for-windows/) and click download then install
+1. Open **Visual Studio** (updated version)
+2. Ensure **Desktop development with C++** workload is installed
+3. Open **Git** → **Clone Repository**
+4. Paste the project repository URL and clone
+5. Build and run the project
 
-## What I used with the project
-//
-- Visual Studio with "Desktop development with C++" workload
-- C++ programming language including C++ 11 and 17
-- #include <filesystem> 
-- #include <openssl/evp.h>  
-- #include <windows.h>  
-- #include <thread>
+---
 
-//
-  
+## OpenSSL Installation (Recommended)
 
+* Download OpenSSL for Windows from SourceForge
+* Install the development libraries
+* Ensure OpenSSL include and lib paths are configured in Visual Studio
 
+---
 
+## Notes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* The monitored folder must be named **`files`**
+* The application runs continuously to ensure immediate file removal
