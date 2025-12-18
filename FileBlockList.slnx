@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="FileBlockList.vcxproj" Id="7f082b4a-2992-4e35-8445-f5230668af44" />
+</Solution>

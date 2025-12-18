@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.ipch/
+*.opensdf
+*.VC.db
+
+# Build artifacts
+build/
+bin/
+Debug/
+Release/
+x64/\n
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs and temporary runtime files
+log.txt
+*.log
+
+# Do not ignore source files, config and data
+# keep blocklist.txt and files/ in repo (they are necessary runtime data)
