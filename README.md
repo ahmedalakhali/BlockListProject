@@ -1,6 +1,13 @@
-<<<<<<< HEAD
+
 # BlockListProject
- A small Windows utility written in C++ that uses ReadDirectoryChangesW for real-time folder monitoring and a periodic scanner. Hasher computes file hashes, Blocklist holds blocked hashes, and Logger writes detections to log.txt; run the program to monitor the files directory and add hashes to blocklist.txt to remove matches.
+A program developed to automatically detect and remove blocked files from a designated folder named files.
+
+The program is implemented in C++ and makes use of Windows data types (typedefs) and Windows API functions, including ReadDirectoryChangesW and CreateFileW, to enable real-time file system monitoring.
+
+The program uses the OpenSSL library to compute SHA-256 hashes of files. Each file detected in the monitored folder is scanned, its hash is calculated, and then compared against a predefined blocklist.
+If a matching hash is found, the file is immediately deleted.
+
+The utility continuously monitors the folder in real time, ensuring that any blocked or malicious files are removed as soon as they appear.  
 =======
 # FileBlockList
 
@@ -13,9 +20,7 @@ Lightweight Windows C++ utility to monitor a folder and detect files whose SHA-2
 
 ## Requirements
 
-- Windows 10 or later
 - Visual Studio 2019 / 2022 with "Desktop development with C++" workload (or MSVC toolchain)
-- CMake 3.15+
 - OpenSSL development libraries (the project uses OpenSSL for SHA-256)
 
 This repository includes a `CMakeLists.txt` so you can build with Visual Studio or CMake.
@@ -127,4 +132,5 @@ This project is provided under the MIT License — see `LICENSE`.
 
 If you want, I can also add a short CONTRIBUTING.md or a LICENSE file. Which would you prefer?
 >>>>>>> d55a9b1 (Initial commit)
+
 
