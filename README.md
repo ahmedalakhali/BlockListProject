@@ -24,7 +24,7 @@ The utility continuously monitors the folder in real time, ensuring that any blo
 
 ## Recommended: Install OpenSSL 
 
-- Go to (https://sourceforge.net/projects/openssl-for-windows/) and click install
+- Go to (https://sourceforge.net/projects/openssl-for-windows/) and click download then install
 
 ## What I used with the project
 
@@ -37,6 +37,7 @@ The utility continuously monitors the folder in real time, ensuring that any blo
 
 - ---
   
+
 
 
 
