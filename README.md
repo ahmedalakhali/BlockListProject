@@ -6,14 +6,6 @@ The program uses the OpenSSL library to compute SHA-256 hashes of files. Each fi
 If a matching hash is found, the file is immediately deleted.
 The utility continuously monitors the folder in real time, ensuring that any blocked or malicious files are removed as soon as they appear.  
 
-
-# FileBlockList
-
-<!-- Replace OWNER/REPO in the badge URL with your GitHub owner and repo -->
-![Windows Build](https://github.com/OWNER/REPO/actions/workflows/windows-build.yml/badge.svg)
-
-Lightweight Windows C++ utility program to monitor a folder and detect files whose SHA-256 hashes appear in a blocklist.
-
 ---
 
 ## Fastest way to run the project
@@ -33,6 +25,7 @@ Lightweight Windows C++ utility program to monitor a folder and detect files who
 ## Recommended: Install OpenSSL 
 
 - Go to (https://sourceforge.net/projects/openssl-for-windows/) and click install
+
 
 
 
