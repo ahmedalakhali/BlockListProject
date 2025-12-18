@@ -2,7 +2,7 @@
 
 ## Overview
 
-BlockListProject is a C++ utility that **monitors a folder named `files` in real time** and automatically **detects and deletes blocked files**. It uses **Windows APIs** for file system monitoring and **OpenSSL** to compute **SHA-256 hashes**, which are compared against a predefined blocklist.
+BlockListProject is a C++ utility program **monitors a folder named `files` in real time** and automatically **detects and deletes blocked files**. It uses **Windows APIs** for file system monitoring and **OpenSSL** to compute **SHA-256 hashes**, which are compared against a predefined blocklist.
 
 If a file’s hash matches the blocklist, the file is **immediately removed**.
 
@@ -56,3 +56,4 @@ If a file’s hash matches the blocklist, the file is **immediately removed**.
 
 * The monitored folder must be named **`files`**
 * The application runs continuously to ensure immediate file removal
+
