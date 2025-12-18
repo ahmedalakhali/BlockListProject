@@ -12,7 +12,7 @@ The utility continuously monitors the folder in real time, ensuring that any blo
 <!-- Replace OWNER/REPO in the badge URL with your GitHub owner and repo -->
 ![Windows Build](https://github.com/OWNER/REPO/actions/workflows/windows-build.yml/badge.svg)
 
-Lightweight Windows C++ utility to monitor a folder and detect files whose SHA-256 hashes appear in a blocklist.
+Lightweight Windows C++ utility program to monitor a folder and detect files whose SHA-256 hashes appear in a blocklist.
 
 ---
 
@@ -33,6 +33,7 @@ Lightweight Windows C++ utility to monitor a folder and detect files whose SHA-2
 ## Recommended: Install OpenSSL 
 
 - Go to (https://sourceforge.net/projects/openssl-for-windows/) and click install
+
 
 
 
