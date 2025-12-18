@@ -32,9 +32,10 @@ The utility continuously monitors the folder in real time, ensuring that any blo
   - C++ programming language including C++ 11 and 17
   - #include <filesystem>
   - #include <openssl/evp.h> 
-  - #include <windows.h> // for windows APIs functions 
+  - #include <windows.h> 
   - #include <thread>
   
+
 
 
 
