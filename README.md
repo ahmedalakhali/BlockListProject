@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # BlockListProject
- A small Windows utility written in C++ that uses ReadDirectoryChangesW for realâ€‘time folder monitoring and a periodic scanner. Hasher computes file hashes, Blocklist holds blocked hashes, and Logger writes detections to log.txt; run the program to monitor the files directory and add hashes to blocklist.txt to remove matches.
+ A small Windows utility written in C++ that uses ReadDirectoryChangesW for real-time folder monitoring and a periodic scanner. Hasher computes file hashes, Blocklist holds blocked hashes, and Logger writes detections to log.txt; run the program to monitor the files directory and add hashes to blocklist.txt to remove matches.
 =======
 # FileBlockList
 
@@ -115,15 +115,16 @@ The repository includes a GitHub Actions workflow that bootstraps `vcpkg` on the
 - "unresolved external symbol" for OpenSSL functions: make sure the OpenSSL libraries are in the Linker settings and the correct architecture is selected (x64 vs x86).
 - "byte: ambiguous symbol" or similar: avoid `using namespace std;` in headers (this repo's headers have been updated to qualify `std::` types).
 - OpenSSL runtime DLL missing at execution: include the matching OpenSSL DLLs alongside the EXE or install OpenSSL runtime on the target machine.
-- If the build fails on CI, check workflow logs — the workflow now installs vcpkg and OpenSSL, so most builds should succeed by default.
+- If the build fails on CI, check workflow logs â€” the workflow now installs vcpkg and OpenSSL, so most builds should succeed by default.
 
 ---
 
 ## License
 
-This project is provided under the MIT License — see `LICENSE`.
+This project is provided under the MIT License â€” see `LICENSE`.
 
 ---
 
 If you want, I can also add a short CONTRIBUTING.md or a LICENSE file. Which would you prefer?
 >>>>>>> d55a9b1 (Initial commit)
+
