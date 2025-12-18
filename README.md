@@ -15,6 +15,14 @@ Lightweight Windows C++ utility to monitor a folder and detect files whose SHA-2
 
 ---
 
+## Fastest way to run the project
+
+- Open Visual Studio updated version with "Desktop development with C++" workload
+- Go to Git
+- Clone Repository
+- Copy the project URL 
+---
+
 ## Requirements
 
 - Visual Studio 2019 / 2022 with "Desktop development with C++" workload (or MSVC toolchain)
@@ -129,6 +137,7 @@ This project is provided under the MIT License — see `LICENSE`.
 
 If you want, I can also add a short CONTRIBUTING.md or a LICENSE file. Which would you prefer?
 >>>>>>> d55a9b1 (Initial commit)
+
 
 
 
